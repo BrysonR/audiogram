@@ -18,7 +18,7 @@ function initializeCanvas(options, cb) {
     return cb(null, renderer);
   }
 
-  var bg = new Image();
+  var bg = new Canvas.Image;
   bg.src = options.backgroundImage;
   renderer.backgroundImage = bg;
   debugger;
