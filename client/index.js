@@ -246,7 +246,7 @@ function preloadImages(themes) {
       return cb(null, theme);
     };
 
-    theme.backgroundImageFile.src = "/settings/backgrounds/" + theme.backgroundImage;
+    theme.backgroundImageFile.src = theme.backgroundImage;
 
   }
 
